@@ -436,7 +436,7 @@ public   class  ApoGamePanel  extends ApoGameComponent {
 	public void setEditor(boolean bUpload) {
 		this.model = this.editor;
 		this.initEditorButtons();
-		this.setButtonVisible(ApoGameConstants.BUTTON_EDITOR);
+		
 		
 		this.model.init();
 		this.editor.setbUpload(bUpload);
@@ -447,22 +447,22 @@ public   class  ApoGamePanel  extends ApoGameComponent {
 	
 	
 	private void initEditorButtons() {
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.MENU);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.TEST);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.UPLOAD);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.LEFT_LAYER);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.RIGHT_LAYER);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.FIXED);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.PLAYER);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.UP);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.DOWN);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.LEFT);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.RIGHT);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.VISIBLE_TRUE); 
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.VISIBLE_FALSE);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.FINISH);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.STEP);
-		ApoGameConstants.BUTTON_EDITOR.add(ApoGameEditor.STEP_FINISH);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 	
