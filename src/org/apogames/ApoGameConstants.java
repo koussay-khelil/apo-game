@@ -237,7 +237,7 @@ public   class  ApoGameConstants {
 	
 	
 	
-	public static ArrayList<String> BUTTON_EDITOR = new ArrayList<String>();
+	
 
 
 }
