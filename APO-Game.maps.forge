@@ -259,6 +259,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "file": "src/apoGame/game/ApoGameButtons.java",
+            "propagations": [
+                {
+                    "featureKey": "9172c027-8552-418e-8672-b37b3ac3104c",
+                    "ranges": [
+                        {
+                            "propagationId": "117ac184-d004-4af1-b4a8-3f0e78a75580",
+                            "sourceId": "117ac184-d004-4af1-b4a8-3f0e78a75580",
+                            "startLine": 159,
+                            "startColumn": 1,
+                            "endLine": 172,
+                            "endColumn": 2,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "2343958a-d07e-47b1-a3b3-2ebf69fc3f92",
+                            "sourceId": "117ac184-d004-4af1-b4a8-3f0e78a75580",
+                            "startLine": 175,
+                            "startColumn": 2,
+                            "endLine": 175,
+                            "endColumn": 26,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "replacementPropagations": [],

@@ -24,6 +24,21 @@
                     "isValidated": true
                 }
             ]
+        },
+        {
+            "file": "src/apoGame/game/ApoGameButtons.java",
+            "seeds": [
+                {
+                    "id": "117ac184-d004-4af1-b4a8-3f0e78a75580",
+                    "featureKey": "9172c027-8552-418e-8672-b37b3ac3104c",
+                    "startLine": 159,
+                    "startColumn": 1,
+                    "endLine": 172,
+                    "endColumn": 2,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
         }
     ],
     "fileSeeds": []
