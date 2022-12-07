@@ -344,7 +344,7 @@ public   class  ApoGamePanel  extends ApoGameComponent {
 	public void setOptions() {
 		this.model = this.options;
 		this.initOptionsMenu();
-		this.setButtonVisible(ApoGameConstants.BUTTON_OPTIONS);
+		
 		
 		this.model.init();
 		
@@ -354,9 +354,9 @@ public   class  ApoGamePanel  extends ApoGameComponent {
 	
 	
 	private void initOptionsMenu() {
-		ApoGameConstants.BUTTON_OPTIONS.add(ApoGameOptions.MENU);
-		ApoGameConstants.BUTTON_OPTIONS.add(ApoGameOptions.MUSIC);
-		ApoGameConstants.BUTTON_OPTIONS.add(ApoGameOptions.SOUND);
+		
+		
+		
 	}
 
 	

@@ -99,7 +99,7 @@ public   class  ApoGameConstants {
 		);
 
 	
-	public static ArrayList<String> BUTTON_OPTIONS = new ArrayList<String>();
+	
 
 	
 	/** indicates the direction "down" or direction south */
