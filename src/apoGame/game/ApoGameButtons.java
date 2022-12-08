@@ -167,7 +167,7 @@ public class ApoGameButtons {
 		x = ApoGameConstants.GAME_WIDTH / 2 - width / 2;
 		y = ApoGameConstants.GAME_HEIGHT / 2 + 70;
 		this.game.getButtons().put(ApoGameMenu.EDITOR, new ApoButton(
-				this.game.getImages().getButtonImageSimple(width * 3, height, text, new Color(0, 0, 0, 0), Color.BLACK,
+				this.game.getImages().getButtonImageSimple(width * 3, height, text, new Color(0, 0, 0, 0), ,
 						Color.BLACK, new Color(255, 255, 0, 128), new Color(255, 0, 0, 128), true, false, font, 10),
 				x, y, width, height, function));
 	}
@@ -194,7 +194,7 @@ public class ApoGameButtons {
 		x = ApoGameConstants.GAME_WIDTH - 1 * 10 - 1 * width;
 		y = ApoGameConstants.GAME_HEIGHT - 2 * height - 2 * 5;
 		this.game.getButtons().put(ApoGameEditor.TEST, new ApoButton(
-				this.game.getImages().getButtonImageSimple(width * 3, height, text, new Color(0, 0, 0, 0), Color.BLACK,
+				this.game.getImages().getButtonImageSimple(width * 3, height, text, new Color(0, 0, 0, 0), ,
 						Color.BLACK, new Color(255, 255, 0, 128), new Color(255, 0, 0, 128), false, false, font, 10),
 				x, y, width, height, function));
 
